@@ -33,16 +33,14 @@ extras_require = {
 setup(
     name='discord-ext-voice_recv',
     author='Imayhaveborkedit',
-    url='https://github.com/imayhaveborkedit/discord-ext-voice-recv',
+    url='https://github.com/sxqib/discord-ext-voice-recv-sb',
     version=version,
-    packages=['discord.ext.voice_recv', 'discord.ext.voice_recv.extras'],
     license='MIT',
     description='Experimental voice receive extension for discord.py',
     long_description=readme,
     long_description_content_type='text/markdown',
     include_package_data=True,
     python_requires='>=3.8',
-    install_requires=['discord.py[voice]>2.3'],
     extras_require=extras_require,
     zip_safe=False,
     classifiers=[
